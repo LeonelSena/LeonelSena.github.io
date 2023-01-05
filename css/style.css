@@ -117,11 +117,11 @@
     border-radius: 10px;
     position: relative;
 } 
-
+/*
 .barra span::before{
     position: absolute;
     content: "";
-    width: 80%;
+    width: 60%; 
     height: 80%;
     background-color: black;
     top: 50%;
@@ -129,6 +129,131 @@
     transform: translateY(-50%);
     border-radius: 10px;
 }
+*/
+
+/* Rellenos de la barras de skills*/
+
+/* Paquete office*/
+.barra .relleno1::before{
+    position: absolute;
+    content: "";
+    width: 95%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* HTML/CSS*/
+.barra .relleno2::before{
+    position: absolute;
+    content: "";
+    width: 90%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* php */
+.barra .relleno3::before{
+    position: absolute;
+    content: "";
+    width: 70%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* Javascript */
+.barra .relleno4::before{
+    position: absolute;
+    content: "";
+    width: 60%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/*Node.js*/
+.barra .relleno5::before{
+    position: absolute;
+    content: "";
+    width: 30%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* Mysql*/
+.barra .relleno6::before{
+    position: absolute;
+    content: "";
+    width: 80%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/*Python*/
+.barra .relleno7::before{
+    position: absolute;
+    content: "";
+    width: 30%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* Hardware */
+.barra .relleno8::before{
+    position: absolute;
+    content: "";
+    width: 85%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* Ingles */
+.barra .relleno9::before{
+    position: absolute;
+    content: "";
+    width: 90%; /* Para cambiar la longitud del relleno negro*/
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/* Rellenos de la barras de skills FIN*/
+
+
+
 
 .redes h1{
     margin-top: 35px;
@@ -259,6 +384,11 @@ button:hover{
 
 @media print{
     body *{
+        visibility: hidden;
+    }
+    .area-foto *{
         visibility: visible;
     }
+   
 }
+
